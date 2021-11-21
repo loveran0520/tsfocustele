@@ -65,7 +65,7 @@ with open(r"members.csv", encoding='UTF-8') as f:  #Enter your file name
 
 chats = []
 last_date = None
-chunk_size = 200
+chunk_size = 800
 groups = []
 
 result = client(GetDialogsRequest(
