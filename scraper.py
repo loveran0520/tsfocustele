@@ -46,7 +46,7 @@ os.system('clear')
 banner()
 chats = []
 last_date = None
-chunk_size = 800
+chunk_size = 200
 groups=[]
  
 result = client(GetDialogsRequest(
